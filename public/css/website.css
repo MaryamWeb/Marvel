@@ -1,0 +1,322 @@
+:root {
+    --main-red-color: rgb(219,2,19);
+    --main-light-grey-color: rgb(153,153,153);
+    --main-medium-grey-color: rgb(57,57,57);
+    --main-dark-grey-color: rgb(32,32,32); 
+}
+ 
+body {
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    
+    font-size: 100%;
+    font-family: 'Trebuchet MS',Helvetica,Arial;  
+}
+
+
+/*-------------------Nav Bar-------------------*/
+a.navbar-brand{
+    font:bold 1.3em/1 'Trebuchet MS',Helvetica,Arial;
+}
+
+a.nav-link{
+    font:bold 1rem/1 'Trebuchet MS',Helvetica,Arial;
+}
+
+a.navbar-brand:hover, a.nav-link:hover{
+    background:var(--main-red-color);
+}
+
+.navbar.scrolled {
+    background:var(--main-dark-grey-color);
+    transition: background 1.2s linear;
+}
+
+.navbar-grey-background{
+    background:var(--main-dark-grey-color);
+}
+
+.navbar-dark .navbar-nav .nav-link.active-link{
+    color: var(--main-light-grey-color);
+   text-decoration: underline;
+   text-decoration-color: var(--main-red-color);
+   
+  }
+
+/*-----------------End Nav Bar-----------------*/
+
+
+
+/*--------------------Posts--------------------*/
+
+section.all-posts-container {
+    background:rgb(0,24,34);
+    border-radius:20px;
+    -webkit-box-shadow: 0px 0px 98px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 98px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 98px -12px rgba(0,0,0,0.75); 
+}
+ 
+h1.post-title,a.post-title-link{
+    font-size: 1.6em;
+    color:var(--main-light-grey-color);  
+    font-weight: bold;
+}
+
+span.post-subtitle{
+    font-size: 0.7em;
+}
+
+div.div-post-image{
+    height: 420px;
+    max-width: 100%; 
+    overflow: hidden; 
+    margin:0 auto; 
+    background:var(--main-light-grey-color);  
+    border-radius:20px ;
+}
+
+img.post-image{
+      width: 100%; height: 100%; object-fit:cover;  
+      background:var(--main-light-grey-color); 
+}
+
+.post-content{
+    text-align: justify;
+    text-indent: 1em;
+    color:white; 
+    letter-spacing: 0.05em;
+}
+
+.red-button{
+    background:var(--main-red-color);
+ }
+ 
+a.post-by-author{
+    color:white; 
+    text-transform:capitalize; 
+    border-bottom: 1.5px solid var(--main-red-color);
+}
+
+hr.red-line{
+    border-top: 1px solid var(--main-red-color);
+}
+
+/*------------------End Posts------------------*/
+
+
+
+/*------------------Pagination-----------------*/
+ 
+a.page-link{
+    border: none;
+    color:black;
+    
+}
+a.page-link:hover{
+    color: var(--main-red-color);
+}
+
+.page-item.active .page-link{
+    background-color: var(--main-red-color);
+}
+
+/*----------------End Pagination----------------*/
+
+
+
+/*--------------------Search--------------------*/
+
+#search-card{
+    position:sticky;z-index:1; top:10%;  
+}
+
+input.search-field{
+    border:none;
+}
+
+button.button-search{
+    background:var(--main-red-color);
+    color:white;
+}
+
+h4 span.no-result-color{
+    color:var(--main-red-color);
+}
+
+/*--------------------End Search--------------------*/
+
+
+
+/*-------------------Login Signup-------------------*/
+
+nav.login-nav{
+    background-color:var(--main-dark-grey-color);
+}
+
+div.login-signup-container{
+    margin-top:50px;
+}
+
+label.label-field{
+   font-size:1.1em;
+}
+
+/*-------------------End Login Signup-------------------*/
+
+
+
+/*-----------------Error Message And Box----------------*/
+
+.invalid-field{
+    color: var(--main-red-color); 
+    font-size: 80%; 
+    margin-top: .35rem;
+}
+
+.invalid-box{
+   border:2px solid var(--main-red-color); 
+   -webkit-box-shadow: 0px 0px 26px -3px rgba(255,8,8,1);
+   -moz-box-shadow: 0px 0px 26px -3px rgba(255,8,8,1);
+   box-shadow: 0px 0px 26px -3px rgba(255,8,8,1);
+}
+
+.invalid-box-lighter{
+    border:1px solid var(--main-red-color); 
+ }
+
+ /*----------------End Error Message And Box--------------*/
+ 
+
+
+  /*----------------------Single Post--------------------*/
+
+ h1.single-post-title{
+    color:var(--main-light-grey-color);  
+    font-weight: bold;
+}
+
+ div.comments-background{ 
+    background: linear-gradient(-180deg, rgb(180, 194, 207) 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background-blend-mode: screen;
+    margin:0 auto;
+}
+
+img.user_icon{
+    background:white;
+    height: 60px; 
+    width: 60px; 
+    border-radius: 50%;
+}
+
+label.leave-comment-label{
+    font-size:1.3em; 
+}
+
+span.visitor-user{
+    font-size: 0.5em;
+}
+
+a.visit-user-link{
+    color:var(--main-red-color);
+}
+
+p.comment-content{
+    text-align:justify;
+}
+
+ /*--------------------End Single Post-------------------*/
+
+
+
+ /*------------------------Profile-----------------------*/
+
+ #profile-nav{
+    background:var(--main-dark-grey-color);
+}
+
+ div.div-user-profile-image{
+    height: 150px; 
+    width: 150px; 
+    overflow: hidden; 
+    margin:0 auto; 
+    background:grey; 
+    border-radius:20px ;
+    margin-top:50px;
+    border-radius: 50%;
+}  
+
+img.user-profile-image{  
+    background:white; 
+    height: 100%; 
+    width: 100%;
+}
+
+hr.red-line-profile{
+    width:80%; 
+    margin-left:0;
+    border-top: 1px solid var(--main-red-color);
+}
+
+div.card{
+    background:var( --main-light-grey-color); 
+    border:none; 
+    overflow: hidden;  
+}
+ 
+img.card-img-top{
+    object-fit:cover; 
+    width: 100%; 
+    height: 100%; 
+}
+
+div .card-img-container{
+    height: 140px;
+    max-width: 100%; 
+    overflow: hidden;
+    margin:0 auto;  
+    background:var( --main-light-grey-color);
+}
+
+h5.card-title{
+    color:var( --main-red-color);
+}
+
+ /*----------------------End Profile---------------------*/
+
+
+
+/*----------------------Responsive---------------------*/
+ 
+
+      /* Search Size */
+
+@media (max-width: 992px){
+    #search-position{
+        padding-top:20px;
+    }
+}
+
+    /* Navbar Links Size*/
+
+@media (max-width: 850px){
+    a.nav-link{
+        font-size: 0.9rem; 
+    }
+
+    a.navbar-brand{
+        font-size: 1.2rem; 
+    }
+}
+
+/*---------------------Link---------------------*/
+
+a.readmore-link{
+    color:white; 
+    text-decoration: none;
+}
+
+a.no-hover-decoration{
+    text-decoration: none;
+}

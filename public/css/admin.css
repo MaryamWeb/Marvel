@@ -1,0 +1,155 @@
+
+.body-user {
+    width:100%;
+    max-width: 100%;
+    background:rgb(21,21,21);
+    overflow-x:hidden;
+}
+
+/*---------------------------------------------*/
+
+ul.dropdown-menu{
+    background:var(--main-dark-grey-color);
+}
+#user-nav, #admin-nav{
+    background:var(--main-medium-grey-color);
+}
+
+.white-container{
+    background:white; 
+}
+
+.red-text, a.red-text:hover{
+    color:var(--main-red-color);
+}
+
+hr.hr-form{
+    width:20%; margin-left:0;
+}
+
+h1.title-edit-add, .fas{
+    color:var(--main-light-grey-color);  
+}
+
+.ck.ck-editor__main>.ck-editor__editable{
+    min-height: 200px;
+ }
+
+/*---------------------Categories---------------------*/
+
+.categories-container{
+    background:white;
+}
+
+.category-form{
+    margin:0 auto;
+    padding-bottom: 30px;
+}
+
+a.add-post-link{
+    color: var(--main-medium-grey-color); 
+}
+
+input.button-apply{
+    background-color:var(--main-red-color);
+     border-color:var(--main-red-color);
+}
+
+/*---------------------Popover---------------------*/
+ 
+ .popover-header {
+    background-color: var(--main-medium-grey-color);
+    font-size: 1.3em;
+    color:white;
+    text-align:center;
+  }
+ 
+  .popover-body {
+    text-align:justify;
+    padding: 8%;
+  }
+
+/*---------------------Link---------------------*/
+ 
+.table  tbody tr td,.table  tbody tr th,.table  thead tr th{
+    vertical-align: middle;
+    text-align:center; 
+    font-family: 'Calibri Light','Abdo Salem'; 
+}
+
+.table  tbody tr td{
+    font-size:1.1em;
+}
+
+.titlehref{
+    color:black;
+    text-decoration: underline;
+}
+
+/*--------------------Card Index-------------------*/
+
+div.card-border{
+    border:none; border-radius:15px;
+}
+
+h5.card-number-count{
+    font-size:2.4em;
+}
+
+div.card_posts{
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.card_comments{
+    background: #3CA55C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+div.card_users{
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #26D0CE, rgb(38, 56, 156));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #26D0CE,rgb(38, 56, 156)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+
+div.card_categories{
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#columnchart_material{
+    width:90%; 
+    height: 500px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin:0 auto;
+ }
+
+
+/*--------------------Modal-------------------*/
+
+div.modal-header , div.modal-footer{
+    border:none;
+}
+
+h4.modal-h4{
+    font: 1.3rem/1 Trebuchet MS,Helvetica,Arial
+}
+
+button.cancel-button-modal{
+    background:var(--main-medium-grey-color);
+}
+
+p.p-modal{
+    font-size:0.9em;
+    margin-left:10px;
+}
+ 
+
+
+
+
+

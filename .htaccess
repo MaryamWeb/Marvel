@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteRule ^(index|login|post|category|profile|search|signup)$ $1.php [NC,L]
+
+RewriteRule ^post/(\d+)$ post.php?id=$1 [NC,L]
+
+RewriteRule ^category/(\d+)$ category.php?category=$1 [NC,L]
+
+RewriteRule ^profile/(\d+)$ profile.php?user=$1 [NC,L]
+
+RewriteRule ^page/(\d+)$ index.php?page=$1 [NC,L]
+ 
+RewriteRule ^category/(\w+)/page/(\d+)$ category.php?category=$1&page=$2 [NC,L]
+
+errordocument 404 /marvel/error.php
